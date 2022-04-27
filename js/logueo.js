@@ -4,13 +4,21 @@ window.onload=function(){
     txt_contraseña=document.getElementById("contraseña");
     boton=document.getElementById("btn");
     boton.addEventListener("click", procesar);
+	btn_cerrar_modal = document.getElementById("btn_cerrar_modal");
+	btn_cerrar_modal.addEventListener("click",cerrarVentana);
 }
 function procesar(){
     var str_usuario, usuario; 
     str_usuario=localStorage.getItem("usuario");
     usuario=JSON.parse(str_usuario);
     if(txt_usuario.value===usuario.usuario && txt_contraseña.value===usuario.clave){
-        console.log("logueado");
-        location.href="index.html";
+        abrirVentana();
     }
+}
+function abrirVentana(){
+	ventana.classList.remove("hidden");
+}
+
+function cerrarVentana(){
+	location.href = "index.html";
 }
