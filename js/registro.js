@@ -21,7 +21,7 @@ function evaluar(){
             correo: txt_correo.value, 
             celular: txt_celular.value,
             usuario: txt_usuario.value,
-            clave: txt_contraseña.value
+            clave: md5(txt_contraseña.value)
         }
 
         localStorage.setItem("usuario",JSON.stringify(usuario));

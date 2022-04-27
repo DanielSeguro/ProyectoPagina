@@ -11,7 +11,7 @@ function procesar(){
     var str_usuario, usuario; 
     str_usuario=localStorage.getItem("usuario");
     usuario=JSON.parse(str_usuario);
-    if(txt_usuario.value===usuario.usuario && txt_contraseña.value===usuario.clave){
+    if(txt_usuario.value===usuario.usuario && md5(txt_contraseña.value)===usuario.clave){
         abrirVentana();
     }
 }
