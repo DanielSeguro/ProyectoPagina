@@ -1179,3 +1179,8 @@ ul.grid-part li a {
 .container{
 	position: sticky;
 }
+  #btn_whatsapp{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+  }
