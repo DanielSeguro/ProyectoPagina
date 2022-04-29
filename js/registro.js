@@ -41,5 +41,5 @@ function abrirVentana(){
 }
 
 function cerrarVentana(evento){
-	location.href = "logueo.html";
+	location.href = "reviews.html";
 }
