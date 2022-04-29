@@ -178,6 +178,7 @@ ul.wmuSliderPagination {
 }
 .banner{
 	background:url(../images/dark.png) 0px 0px;
+	
 	  padding: 3em 0;
 }
 .banner-top{
@@ -1221,13 +1222,12 @@ ul.grid-part li a {
 	font-size:20px;
   }
   .head-top{
-	width: 70%;
+	width: 100%;
 	position: fixed;
 	background-color: white;
-	margin-left: 30px;
 	z-index: 1;
 	top: 0%;
-	margin-left: 0%;
+	margin-left: -190px;
 	margin-right: 0%;
 }
 .recargar:hover{
