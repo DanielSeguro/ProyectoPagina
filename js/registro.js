@@ -3,9 +3,8 @@ let btn_submit;
 
 window.onload=function(){
 
-    txt_nombre=document.getElementById("nombre");
+
     txt_correo=document.getElementById("correo");
-    txt_celular=document.getElementById("celular");
     txt_usuario=document.getElementById("usuario");
     txt_contraseña=document.getElementById("contraseña");
     btn_submit=document.getElementById("enviar");
@@ -17,9 +16,7 @@ window.onload=function(){
 function evaluar(){
     
         var usuario={
-            nombre: txt_nombre.value, 
             correo: txt_correo.value, 
-            celular: txt_celular.value,
             usuario: txt_usuario.value,
             clave: md5(txt_contraseña.value)
         }
@@ -27,9 +24,8 @@ function evaluar(){
         localStorage.setItem("usuario",JSON.stringify(usuario));
         abrirVentana();
 
-        txt_nombre.value ="";
+   
         txt_correo.value="";
-        txt_celular.value="";
         txt_usuario.value="";
         txt_contraseña.value="";
     

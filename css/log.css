@@ -131,14 +131,15 @@ p{
 }
 
 .contenido-ventana{
-    position: absolute;
+    position: sticky;
+    text-align: center;
     background-color: #fff;
     width: 500px;
     height: 230px;
     margin-right: auto;
     margin-left: auto;
     top: 50%;
-    margin-top: -115px;
+    margin-top: -415px;
     border-radius: 10px;
     padding: 20px;
 }
