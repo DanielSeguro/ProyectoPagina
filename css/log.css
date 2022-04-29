@@ -129,3 +129,16 @@ p{
   outline:0;
   border: 1px solid #97d848;
 }
+
+.contenido-ventana{
+    position: absolute;
+    background-color: #fff;
+    width: 500px;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 50%;
+    margin-top: -115px;
+    border-radius: 10px;
+    padding: 20px;
+}

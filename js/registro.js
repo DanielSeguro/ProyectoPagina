@@ -41,5 +41,5 @@ function abrirVentana(){
 }
 
 function cerrarVentana(evento){
-	location.href = "api.html";
+	location.href = "logueo.html";
 }
