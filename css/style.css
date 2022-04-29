@@ -131,6 +131,8 @@ font-family: 'Montserrat Alternates', sans-serif;
 	    border-bottom: 1px solid #D3D2D2;
 	background-size: 100%;
 	justify-content: center;
+	padding-left: 0%;
+	padding-right: 0%;
 }
 /*--banner--*/
 .wmuSlider {
@@ -1219,10 +1221,14 @@ ul.grid-part li a {
 	font-size:20px;
   }
   .head-top{
+	width: 70%;
 	position: fixed;
 	background-color: white;
 	margin-left: 30px;
 	z-index: 1;
+	top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 .recargar:hover{
 	filter: brightness(1.45);
@@ -1230,6 +1236,7 @@ ul.grid-part li a {
 .animal:hover{
 	filter: brightness(1.45);
 }
+
 
 
 
